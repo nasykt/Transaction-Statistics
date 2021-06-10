@@ -34,9 +34,13 @@ Returns:
   "min": 50,
   
   "count": 10
+  
 }
 ---------------------------------------------------------------------------------------------------------
 The API needs the following endpoints: 
+
 ● POST /transactions​ – called every time a transaction is made. It is also the sole input of this rest API. 
+
 ● GET /statistics​ – returns the statistic based of the transactions of the last 60 seconds. 
+
 ● DELETE /transactions​ – deletes all transactions. 
