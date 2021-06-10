@@ -7,6 +7,7 @@ Every Time a new transaction happened, this endpoint will be called. Body:
 
 {
   "amount": 12.3,
+
   "timestamp": 1478192204000
 }
 
@@ -25,9 +26,13 @@ Returns:
 
 {
   "sum": 1000,
+
   "avg": 100,
+  
   "max": 200,
+  
   "min": 50,
+  
   "count": 10
 }
 ---------------------------------------------------------------------------------------------------------
